@@ -1,0 +1,35 @@
+/* .pokedex-wrapper > h1 {
+    text-align: center;
+    letter-spacing: 1rem;
+    
+} */
+
+
+
+
+
+.pokedex-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7; /* Light background for the Pokedex */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.pokedex-wrapper center {
+    margin-bottom: 20px; /* Space between search and the Pokémon list */
+}
+
+h1 {
+    font-size: 2em;
+    color: #333; /* Darker text for better visibility */
+    text-align: center; /* Center the title */
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+

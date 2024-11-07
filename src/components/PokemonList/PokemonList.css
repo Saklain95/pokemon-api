@@ -1,0 +1,85 @@
+/* .pokemon-wrapper{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.btn-wrapper{
+    display:flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    margin: 10px 20px;
+}
+
+#loading-display{
+    font-size: larger;
+    font-size:50px;
+    margin:20px;
+} */
+
+
+
+
+
+.PokemonList-wrapper {
+    max-width: 1200px; /* Limit the width of the list */
+    margin: 0 auto; /* Center the list */
+    padding: 20px; /* Add padding around the list */
+}
+
+.pokemon-wrapper {
+    display: grid; /* Use grid layout for the cards */
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 20px; /* Space between cards */
+    margin-bottom: 20px; /* Space below the card grid */
+}
+
+.pokemon-item {
+    background-color: #f0f0f0; /* Background color for each card */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding inside each card */
+    text-align: center; /* Center text in the card */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transitions for hover effects */
+}
+
+.pokemon-item:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.btn-wrapper {
+    display: flex; /* Flex layout for buttons */
+    justify-content: center; /* Center the buttons */
+    gap: 10px; /* Space between buttons */
+}
+
+.btn {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding inside the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.btn:disabled {
+    background-color: #ccc; /* Disabled button color */
+    cursor: not-allowed; /* Not allowed cursor */
+}
+
+.btn:hover:not(:disabled) {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+#loading-display {
+    text-align: center; /* Center the loading message */
+    font-size: 18px; /* Font size for loading message */
+    font-weight: bold; /* Bold text */
+    color: #333; /* Text color */
+}

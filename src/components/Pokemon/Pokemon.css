@@ -1,0 +1,59 @@
+/* .p-wrapper{
+    flex-basis: 20%;
+    height: 400px;
+    width: 300px;
+    border:2px solid black;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.p-wrapper:hover{
+    background-color: #DFF2EB;
+}
+
+#img {
+    height: 220px;
+    width: 190px;
+}
+
+#h5 {
+    font-size: larger;
+    letter-spacing: 0.7rem;
+} */
+
+
+
+
+
+
+.p-wrapper {
+    background-color: #f9f9f9;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.p-wrapper:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+#h5 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 10px 0;
+}
+
+#img {
+    width: 100px; /* Set width for consistency */
+    height: 100px; /* Set height for consistency */
+    object-fit: contain; /* Ensure the image is contained */
+    border-radius: 8px; /* Rounded corners for images */
+}
